@@ -4,20 +4,24 @@
 
 - keep the `my_file.bin` file in the same directory as the `process_binary_file.py` file
 - run the `process_binary_file.py` using the above mentioned python version
+- (optional) in order to use a different file, update the file path in `process_binary_file.py` at line number `70`
 
 # Expected output
 
-- output will be printed to the screen or standard output device as follows
-  =====Example Output for humans:==========
-  {5, 17}: ' world'
-  {45, 54}: ' place'
-  {6, 18}: 'world'
-  {46, 55}: 'place'
-  ======Output for binary file:============
-  {5, 17}: 32, 119, 111, 114, 108, 100
-  {45, 54}: 32, 112, 108, 97, 99, 101
-  {6, 18}: 119, 111, 114, 108, 100
-  {46, 55}: 112, 108, 97, 99, 101
+- Output will be printed to the screen or standard output device as follows -
+
+```
+    =====Example Output for humans:==========
+    {5, 17}: ' world'
+    {45, 54}: ' place'
+    {6, 18}: 'world'
+    {46, 55}: 'place'
+    ======Output for binary file:============
+    {5, 17}: 32, 119, 111, 114, 108, 100
+    {45, 54}: 32, 112, 108, 97, 99, 101
+    {6, 18}: 119, 111, 114, 108, 100
+    {46, 55}: 112, 108, 97, 99, 101
+```
 
 # Assumptions
 
