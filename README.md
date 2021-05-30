@@ -49,6 +49,7 @@ If the input is an ascii file and the character length a character:
 Hello world, this world is a really beautiful place. A place like home.
 """
 
+```
 Example Output for humans:
 {5, 17}: ' world'
 {6, 18}: 'world'
@@ -60,3 +61,4 @@ Output for binary file:
 {6, 18}: [119, 111, 114, 108, 100]
 {45, 54}: [32, 112, 108, 97, 99, 101]
 {46, 55}: [112, 108, 97, 99, 101]
+```
